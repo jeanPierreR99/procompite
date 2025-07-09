@@ -4,7 +4,7 @@ import { Loader2 } from "lucide-react";
 import React from "react";
 import Layout from "../shared/Layout/Layout";
 
-const LoadingFallback = () => <div className="min-w-screen min-h-screen bg-gray-100/70  flex justify-center items-center">
+const LoadingFallback = () => <div className="min-w-[1225px] min-h-screen bg-gray-100/70  flex justify-center items-center">
     <Loader2 className="animate-spin text-blue-500" />
 </div>;
 const Home = React.lazy(() => import("../features/home/Home"));
