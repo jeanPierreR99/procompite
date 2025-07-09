@@ -1,0 +1,20 @@
+@import "tailwindcss";
+.section-2{
+    background-image: url("/vaca.jpeg");
+
+    background-size: cover;
+    
+}
+
+*{
+    outline: none;
+}
+.procompite{
+    background-image: url("/Recurso 71.png");
+
+    background-size: cover;
+}
+
+button{
+    cursor: pointer;
+}
