@@ -33,7 +33,7 @@ const Requisitos = () => {
                     {requisitos.map((req, index) => (
                         <div
                             key={index}
-                            className="flex items-start gap-3 bg-green-200/50 p-4 rounded-lg border border-green-500 hover:scale-[1.02] transition-transform"
+                            className="flex items-center gap-3 bg-green-200/50 p-4 rounded-lg border border-green-500 hover:scale-[1.02] transition-transform"
                         >
                             <CheckCircle className="text-yellow-300 w-6 h-6 mt-1 shrink-0" />
                             <p className="text-sm font-bold">{req}</p>
