@@ -1,9 +1,11 @@
 
 const allies = [
-    { name: 'Aliado 1', logo: './Recurso 78.png', path: "https://www.gob.pe/munitambopata" },
-    { name: 'Aliado 2', logo: './Recurso 77.png', path: "https://www.gob.pe/munitambopata" },
-    { name: 'Aliado 3', logo: './Recurso 76.png', path: "https://www.gob.pe/munitambopata" },
-    { name: 'Aliado 5', logo: './Recurso 74.png', path: "https://www.gob.pe/munitambopata" },
+    { name: 'Aliado 1', logo: './aliado1.png', path: "https://www.gob.pe/munitambopata" },
+    { name: 'Aliado 2', logo: './aliado2.png', path: "https://www.gob.pe/munitambopata" },
+    { name: 'Aliado 3', logo: './aliado3.png', path: "https://www.gob.pe/munitambopata" },
+    { name: 'Aliado 5', logo: './aliado4.png', path: "https://www.gob.pe/munitambopata" },
+    { name: 'Aliado 5', logo: './aliado5.png', path: "https://www.gob.pe/munitambopata" },
+    { name: 'Aliado 5', logo: './aliado6.png', path: "https://www.gob.pe/munitambopata" },
 ];
 
 const Aliance = () => {
@@ -17,20 +19,21 @@ const Aliance = () => {
                     Gracias a estas instituciones aliadas, el PROCOMPITE fortalece su impacto en la región.
                 </p>
 
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-8 items-center justify-center">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-8 items-center justify-center">
                     {allies.map((ally, index) => (
-                        <div
+                        <a
+                            href={ally.path} target="__blank"
                             key={index}
                             className="bg-white shadow-md p-4 rounded-lg flex items-center justify-center transition-transform duration-300 hover:scale-105"
                         >
-                            <a href={ally.path} target="__blank">
+                            <div className="w-full h-full">
                                 <img
                                     src={ally.logo}
                                     alt={ally.name}
-                                    className="h-20 object-contain"
+                                    className="h-26  object-fit-contain m-auto"
                                 />
-                            </a>
-                        </div>
+                            </div>
+                        </a>
                     ))}
                 </div>
             </div>

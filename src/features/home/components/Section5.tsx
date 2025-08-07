@@ -4,25 +4,25 @@ const winners = [
     {
         name: 'WILY FLORES REYES',
         cui: '2650388',
-        avatar: './silueta.png',
+        avatar: './g1.webp',
         description: `“MEJORAMIENTO DEL SISTEMA DE ENVASADO Y ALMACENAMIENTO EN LA PLANTA PROCESADORA DE PULPA DE COPOAZU EN LA ASOCIACIÓN DE AGRICULTORES AGROPECUARIOS DE LA COMUNIDAD EL PROGRESO, DISTRITO DE INAMBARI, PROVINCIA DE TAMBOPATA, REGIÓN MADRE DE DIOS”`,
     },
     {
         name: 'JHONNY LEODAN CURINAMBRE LEYVA',
         cui: '2650384',
-        avatar: './silueta.png',
+        avatar: './g2.webp',
         description: `“MEJORAMIENTO DEL PROCESAMIENTO POST COSECHA PARA LA COMERCIALIZACIÓN DE LOS DERIVADOS DE CACAO DE LA ASOCIACIÓN DE PRODUCTORES DE CACAO SAN FRANCISCO MADRE DE DIOS EN EL DISTRITO DE LAS PIEDRAS, PROVINCIA DE TAMBOPATA, REGIÓN MADRE DE DIOS"`,
     },
     {
         name: 'GILBERTO VERA TORRES ',
         cui: '2650385',
-        avatar: './silueta.png',
+        avatar: './g3.webp',
         description: `“AMPLIACIÓN Y MEJORAMIENTO DE LA INFRAESTRUCTURA DE POSTCOSECHA DE CACAO EN LA PLANTA DE PROCESO PRIMARIO DE LA COOPERATIVA AGRARIA DE SERVICIOS MÚLTIPLES TAMBOPATA CANDAMO, SECTOR VICTOR RA, DISTRITO LABERINTO, PROVINCIA TAMBOPATA, REGIÓN MADRE DE DIOS”`,
     },
     {
         name: 'MILENA ROCIO DEL ÁGUILA CASTILLA',
         cui: '2650386',
-        avatar: './silueta.png',
+        avatar: './g4.webp',
         description: `“MEJORAMIENTO DE LA PLANTA DE PROCESAMIENTO DE PULPA DE AGUAJE DE LA ASOCIACION EMPRESARIAL DE MUJERES DE LA COMUNIDAD NATIVA KOTSIMBA, DISTRITO INAMBARI, PROVINCIA TAMBOPATA Y REGIÓN MADRE DE DIOS''`,
     },
 ];
@@ -65,7 +65,7 @@ const Section5 = () => {
                     <img
                         src={selectedWinner.avatar}
                         alt={selectedWinner.name}
-                        className="w-24 h-24 rounded-full border-4 border-yellow-400 object-cover shadow-md"
+                        className="md:w-120 w-full h-70  border-2 border-yellow-400 shadow-md"
                     />
                     <div>
                         <h5 className="text-xl font-semibold text-green-700">{selectedWinner.name}</h5>

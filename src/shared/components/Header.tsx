@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Menu, X, BookText, Send } from "lucide-react";
-import { FaWhatsapp } from "react-icons/fa";
 
 const itemsPath = [
     { name: "Inicio", path: "inicio" },
@@ -62,14 +61,6 @@ const Header = () => {
                         >
                             <BookText size={18} /> Manual
                         </a>
-                        <a
-                            href="https://chat.whatsapp.com/enlace"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-2 bg-green-600 px-4 py-2 text-white hover:bg-green-600/80 font-bold shadow-md rounded-md transition hover:scale-110"
-                        >
-                            <FaWhatsapp size={18} /> Únete al grupo
-                        </a>
                     </div>
                 </nav>
 
@@ -128,16 +119,6 @@ const Header = () => {
                             className="w-full flex items-center justify-center gap-2 bg-yellow-400 px-4 py-2 text-white hover:bg-yellow-400/80 font-bold shadow-md rounded-md transition"
                         >
                             <BookText size={18} /> Manual
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://chat.whatsapp.com/enlace"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="w-full flex items-center justify-center gap-2 bg-green-600 px-4 py-2 text-white hover:bg-green-600/80 font-bold shadow-md rounded-md transition"
-                        >
-                            <FaWhatsapp size={18} /> Únete al grupo
                         </a>
                     </li>
                 </ul>

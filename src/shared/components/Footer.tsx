@@ -27,8 +27,8 @@ const Footer = () => {
                 {/* Contacto */}
                 <div className="flex flex-col gap-2">
                     <h4 className="font-semibold mb-1">Contacto</h4>
-                    <p>Dirección: Av. Leon Velarde #123, Puerto Maldonado</p>
-                    <p>Teléfono: (082) 123456</p>
+                    <p>Dirección: Av. León Velarde 230 - Puerto Maldonado</p>
+                    <p>Teléfono: (082) 984281243</p>
                     <p>Email: informes@tambopata.gob.pe</p>
                 </div>
             </div>
