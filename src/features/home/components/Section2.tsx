@@ -53,8 +53,19 @@ const Section2 = () => {
                         constituidas en Registros Públicos.
                     </p>
                 </div>
+                <div className='relative py-10'>
+                    <iframe
+                        // width="560"
+                        className='mx-auto w-full md:w-[560px] border-3 border-white shadow-lg'
+                        height="320"
+                        src="https://www.youtube.com/embed/axzKJpIrCTk?si=gQgPigCVMsTFkJxI"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        referrerPolicy="strict-origin-when-cross-origin"
+                    ></iframe>
+                </div>
             </div>
-
             {/* Cards */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-10 -mt-20 relative z-20">
                 {items.map((it, index) => (

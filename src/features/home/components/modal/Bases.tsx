@@ -31,8 +31,8 @@ const Bases = () => (
 
         <div>
             <a
-                href="/doc/bases_procompite.pdf"
-                download
+                href="https://cdn.www.gob.pe/uploads/document/file/8636737/6936852-bases-procompite-2025-actualizado-10-09-2025-segun-documento-carta-n-990-2025-mpt-cdel.pdf?v=1757541958"
+                // download
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mt-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition-colors"

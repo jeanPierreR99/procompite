@@ -1,3 +1,4 @@
+// import { useEffect, useState } from "react";
 import { useEffect, useState } from "react";
 import Aliance from "./components/Aliance";
 import ContactForm from "./components/ContactForm";
@@ -12,11 +13,11 @@ import PreviewModal from "./components/modal/PreviewModal";
 
 const Home = () => {
   const [showModal1, setShowModal1] = useState(false);
-  const [showModal2, setShowModal2] = useState(false);
+  // const [showModal2, setShowModal2] = useState(false);
 
   useEffect(() => {
     setShowModal1(true);
-    setShowModal2(true);
+    // setShowModal2(true);
   }, []);
 
   return (
@@ -34,17 +35,17 @@ const Home = () => {
       {showModal1 && (
         <PreviewModal
           type="pdf"
-          url="/doc/CARTA N° 002 Ampliacion de plazo de registro.pdf"
+          url="./doc/comunicado.pdf"
           onClose={() => setShowModal1(false)}
         />
       )}
-      {showModal2 && (
+      {/* {showModal2 && (
         <PreviewModal
           type="image"
           url="/banner-modal.jpg"
           onClose={() => setShowModal2(false)}
         />
-      )}
+      )} */}
     </div>
   );
 };
