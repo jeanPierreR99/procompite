@@ -18,3 +18,6 @@
 button{
     cursor: pointer;
 }
+*{
+  font-family: 'Omnes', sans-serif;
+}

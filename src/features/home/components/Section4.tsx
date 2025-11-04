@@ -13,7 +13,7 @@ const Section4 = () => {
                 ¿QUÉ FINANCIAMOS?
             </h4>
 
-            <div className="relative bg-green-700 py-4">
+            <div className="relative bg-green-600 py-4">
                 {/* Fondo difuminado */}
                 <div className="absolute inset-0 bg-gradient-to-r from-green-800 to-transparent opacity-90 z-0" />
 

@@ -8,7 +8,7 @@ const LoadingFallback = () => <div className="min-w-[1225px] min-h-screen bg-gra
     <Loader2 className="animate-spin text-blue-500" />
 </div>;
 const Home = React.lazy(() => import("../features/home/Home"));
-const Required = React.lazy(() => import("../features/required/Required"));
+const Required = React.lazy(() => import("../features/gallery/Gallery"));
 
 const withSuspense = (Component: React.ReactNode) => (
     <Suspense fallback={<LoadingFallback />}>{Component}</Suspense>
